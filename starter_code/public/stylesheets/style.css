@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('/images/concert.png');
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+.index-container {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.index-container h1 {
+    color: coral;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.artist-container div {
+    width: 22%;
+    padding: 5px;
+}
+
+.artist-container div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.artist-container div div {
+    height: 60%;
+    width: 100%;
+}
+
+.albums-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.albums-container div {
+    width: 22%;
+    padding: 5px;
+}
+
+.albums-container div div {
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.albums-container div img,
+h3,
+p {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: grey;
+}
+
+.header p {
+    color: white;
+}
+
+.tracks-container {
+    padding: 0 20px;
+}
+
+.tracks-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tracks-container div div {
+    width: 48%;
+}
+
+.tracks-container audio {
+    margin: 0 auto;
+}
